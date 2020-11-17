@@ -11,7 +11,7 @@ struct HorizontalScrollView: View {
     var body: some View {
         VStack {
             Divider()
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 15) {
                     CircleAvatarView(image: "face1")
                     CircleAvatarView(image: "face2")

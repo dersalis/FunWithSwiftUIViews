@@ -11,8 +11,9 @@ struct CircleAvatarView: View {
     @State var image: String
     
     var body: some View {
-        Image(image).resizable().frame(width: 80, height: 80, alignment: .center)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(Color.white, lineWidth: 4)).shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        Image(image).resizable().frame(width: 80, height: 80, alignment: .center)            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(Color.white, lineWidth: 6))
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(Color.gray.opacity(0.35), lineWidth: 0.5))
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
     }
 }
 
