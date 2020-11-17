@@ -13,6 +13,7 @@
 		DA853FC62564038900599DF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA853FC52564038900599DF5 /* Preview Assets.xcassets */; };
 		DA853FD12564038A00599DF5 /* FunWithSwiftUIViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853FD02564038A00599DF5 /* FunWithSwiftUIViewsTests.swift */; };
 		DA853FDC2564038A00599DF5 /* FunWithSwiftUIViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853FDB2564038A00599DF5 /* FunWithSwiftUIViewsUITests.swift */; };
+		DA853FEE256406D800599DF5 /* CircleTimeGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853FED256406D800599DF5 /* CircleTimeGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DA853FD72564038A00599DF5 /* FunWithSwiftUIViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunWithSwiftUIViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA853FDB2564038A00599DF5 /* FunWithSwiftUIViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithSwiftUIViewsUITests.swift; sourceTree = "<group>"; };
 		DA853FDD2564038A00599DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA853FED256406D800599DF5 /* CircleTimeGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimeGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		DA853FBD2564038600599DF5 /* FunWithSwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				DA853FEC256406AD00599DF5 /* CircleTimeGraph */,
 				DA853FBE2564038600599DF5 /* FunWithSwiftUIViewsApp.swift */,
 				DA853FC02564038600599DF5 /* ContentView.swift */,
 				DA853FC22564038900599DF5 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				DA853FDD2564038A00599DF5 /* Info.plist */,
 			);
 			path = FunWithSwiftUIViewsUITests;
+			sourceTree = "<group>";
+		};
+		DA853FEC256406AD00599DF5 /* CircleTimeGraph */ = {
+			isa = PBXGroup;
+			children = (
+				DA853FED256406D800599DF5 /* CircleTimeGraphView.swift */,
+			);
+			path = CircleTimeGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA853FEE256406D800599DF5 /* CircleTimeGraphView.swift in Sources */,
 				DA853FC12564038600599DF5 /* ContentView.swift in Sources */,
 				DA853FBF2564038600599DF5 /* FunWithSwiftUIViewsApp.swift in Sources */,
 			);
