@@ -1,2 +1,3 @@
 # FunWithSwiftUIViews
-SwiftUI Views Examples
+Moje eksperymenty z SwiftUI.
+
