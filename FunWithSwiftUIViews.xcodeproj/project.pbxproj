@@ -22,6 +22,7 @@
 		DA85400F2564603C00599DF5 /* ButtonCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85400E2564603C00599DF5 /* ButtonCustomView.swift */; };
 		DA85401725646C8F00599DF5 /* ButtonBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85401625646C8F00599DF5 /* ButtonBorderView.swift */; };
 		DA85401C25646D5700599DF5 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85401B25646D5700599DF5 /* ButtonStyleView.swift */; };
+		DA8540222565847600599DF5 /* DashboardOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8540212565847600599DF5 /* DashboardOneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		DA85400E2564603C00599DF5 /* ButtonCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomView.swift; sourceTree = "<group>"; };
 		DA85401625646C8F00599DF5 /* ButtonBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBorderView.swift; sourceTree = "<group>"; };
 		DA85401B25646D5700599DF5 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		DA8540212565847600599DF5 /* DashboardOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardOneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		DA853FBD2564038600599DF5 /* FunWithSwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				DA8540202565845500599DF5 /* DashboardOne */,
 				DA85400D2564602100599DF5 /* ButtonCustom */,
 				DA853FFD25643C7900599DF5 /* ListCustomItem */,
 				DA853FF2256409BD00599DF5 /* HorizontalScroll  */,
@@ -187,6 +190,14 @@
 				DA85401B25646D5700599DF5 /* ButtonStyleView.swift */,
 			);
 			path = ButtonCustom;
+			sourceTree = "<group>";
+		};
+		DA8540202565845500599DF5 /* DashboardOne */ = {
+			isa = PBXGroup;
+			children = (
+				DA8540212565847600599DF5 /* DashboardOneView.swift */,
+			);
+			path = DashboardOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 				DA853FF925640CD900599DF5 /* CircleAvatarView.swift in Sources */,
 				DA853FFF25643C9F00599DF5 /* ListCustomView.swift in Sources */,
 				DA8540092564433A00599DF5 /* TrailRowView.swift in Sources */,
+				DA8540222565847600599DF5 /* DashboardOneView.swift in Sources */,
 				DA853FC12564038600599DF5 /* ContentView.swift in Sources */,
 				DA85401725646C8F00599DF5 /* ButtonBorderView.swift in Sources */,
 				DA85400F2564603C00599DF5 /* ButtonCustomView.swift in Sources */,
