@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5A513F25684D790097AF1C /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A513E25684D790097AF1C /* NavigationListView.swift */; };
+		DA5A514425684E250097AF1C /* Frend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A514325684E250097AF1C /* Frend.swift */; };
+		DA5A5151256857E70097AF1C /* FrendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A5150256857E70097AF1C /* FrendDetailView.swift */; };
+		DA5A515A256858280097AF1C /* FrendRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A5159256858280097AF1C /* FrendRowView.swift */; };
 		DA853FBF2564038600599DF5 /* FunWithSwiftUIViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853FBE2564038600599DF5 /* FunWithSwiftUIViewsApp.swift */; };
 		DA853FC12564038600599DF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853FC02564038600599DF5 /* ContentView.swift */; };
 		DA853FC32564038900599DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA853FC22564038900599DF5 /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA5A513E25684D790097AF1C /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
+		DA5A514325684E250097AF1C /* Frend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frend.swift; sourceTree = "<group>"; };
+		DA5A5150256857E70097AF1C /* FrendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendDetailView.swift; sourceTree = "<group>"; };
+		DA5A5159256858280097AF1C /* FrendRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendRowView.swift; sourceTree = "<group>"; };
 		DA853FBB2564038600599DF5 /* FunWithSwiftUIViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithSwiftUIViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA853FBE2564038600599DF5 /* FunWithSwiftUIViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithSwiftUIViewsApp.swift; sourceTree = "<group>"; };
 		DA853FC02564038600599DF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA5A513D25684D380097AF1C /* NavigationList */ = {
+			isa = PBXGroup;
+			children = (
+				DA5A513E25684D790097AF1C /* NavigationListView.swift */,
+				DA5A514325684E250097AF1C /* Frend.swift */,
+				DA5A5150256857E70097AF1C /* FrendDetailView.swift */,
+				DA5A5159256858280097AF1C /* FrendRowView.swift */,
+			);
+			path = NavigationList;
+			sourceTree = "<group>";
+		};
 		DA853FB22564038500599DF5 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +134,7 @@
 		DA853FBD2564038600599DF5 /* FunWithSwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				DA5A513D25684D380097AF1C /* NavigationList */,
 				DA8540202565845500599DF5 /* DashboardOne */,
 				DA85400D2564602100599DF5 /* ButtonCustom */,
 				DA853FFD25643C7900599DF5 /* ListCustomItem */,
@@ -332,6 +352,8 @@
 				DA85401C25646D5700599DF5 /* ButtonStyleView.swift in Sources */,
 				DA853FEE256406D800599DF5 /* CircleTimeGraphView.swift in Sources */,
 				DA853FF425640A0900599DF5 /* HorizontalScrollView.swift in Sources */,
+				DA5A514425684E250097AF1C /* Frend.swift in Sources */,
+				DA5A513F25684D790097AF1C /* NavigationListView.swift in Sources */,
 				DA853FF925640CD900599DF5 /* CircleAvatarView.swift in Sources */,
 				DA853FFF25643C9F00599DF5 /* ListCustomView.swift in Sources */,
 				DA8540092564433A00599DF5 /* TrailRowView.swift in Sources */,
@@ -339,8 +361,10 @@
 				DA853FC12564038600599DF5 /* ContentView.swift in Sources */,
 				DA85401725646C8F00599DF5 /* ButtonBorderView.swift in Sources */,
 				DA85400F2564603C00599DF5 /* ButtonCustomView.swift in Sources */,
+				DA5A5151256857E70097AF1C /* FrendDetailView.swift in Sources */,
 				DA853FBF2564038600599DF5 /* FunWithSwiftUIViewsApp.swift in Sources */,
 				DA8540042564411500599DF5 /* Trail.swift in Sources */,
+				DA5A515A256858280097AF1C /* FrendRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
