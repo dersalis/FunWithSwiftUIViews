@@ -18,6 +18,7 @@ struct Frend: Identifiable {
 
 
 final class FrendsStorage: ObservableObject {
+    @Published var showOnlyFavorite: Bool = false
     @Published var frends = [
         Frend(id: 0, fName: "Kornelia", lName: "Słaba", age: 32, email: "k.sl@wp.pl", isFavorite: false),
         Frend(id: 1, fName: "Wiktoria", lName: "Wiśnia", age: 29, email: "wwis@wp.pl", isFavorite: true),

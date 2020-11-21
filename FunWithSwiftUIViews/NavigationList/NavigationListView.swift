@@ -12,9 +12,16 @@ struct NavigationListView: View {
     
     var body: some View {
         NavigationView {
-            List (frendsStore.frends) {frend in
-                NavigationLink(destination: FrendDetailView(frend: frend)) {
-                    FrendRowView(frend: frend)
+            List {
+                Toggle(isOn: $frendsStore.showOnlyFavorite, label: {
+                    Text("Pokaż ulubionych")
+                })
+                ForEach (frendsStore.frends) {frend in
+                    if !self.frendsStore.showOnlyFavorite || frend.isFavorite {
+                        NavigationLink(destination: FrendDetailView(frend: frend)) {
+                            FrendRowView(frend: frend)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("Frends"))
