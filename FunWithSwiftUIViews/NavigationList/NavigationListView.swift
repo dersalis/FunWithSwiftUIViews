@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct NavigationListView: View {
-    @ObservedObject var frendsStore = FrendsStorage()
+    @EnvironmentObject var frendsStore: FrendsStorage
     
     var body: some View {
         NavigationView {
-            List (self.frendsStore.frends) {frend in
+            List (frendsStore.frends) {frend in
                 NavigationLink(destination: FrendDetailView(frend: frend)) {
                     FrendRowView(frend: frend)
                 }
@@ -25,5 +25,7 @@ struct NavigationListView: View {
 struct NavigationListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationListView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+            .environmentObject(FrendsStorage())
     }
 }

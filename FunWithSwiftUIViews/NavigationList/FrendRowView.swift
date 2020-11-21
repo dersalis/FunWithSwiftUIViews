@@ -12,6 +12,13 @@ struct FrendRowView: View {
     
     var body: some View {
         HStack {
+            if self.frend.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            } else {
+                Image(systemName: "star")
+                    .foregroundColor(Color.gray.opacity(0.25))
+            }
             VStack (alignment: .leading) {
                 Text(self.frend.fName + " " + self.frend.lName)
                 Text(self.frend.email)
@@ -28,7 +35,11 @@ struct FrendRowView: View {
 
 struct FrendRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FrendRowView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl"))
-            .previewLayout(.fixed(width: 300, height: 100))
+        Group {
+            FrendRowView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: true))
+            FrendRowView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: false))
+        }
+        .previewLayout(.fixed(width: 300, height: 100))
+        
     }
 }

@@ -13,13 +13,16 @@ struct Frend: Identifiable {
     var lName: String
     var age: Int
     var email: String
+    var isFavorite: Bool
 }
 
 
-class FrendsStorage: ObservableObject {
-    @Published var frends: [Frend] = [
-        Frend(id: 0, fName: "Kornelia", lName: "Słaba", age: 32, email: "k.sl@wp.pl"),
-        Frend(id: 1, fName: "Wiktoria", lName: "Wiśnia", age: 29, email: "wwis@wp.pl"),
-        Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl")
+final class FrendsStorage: ObservableObject {
+    @Published var frends = [
+        Frend(id: 0, fName: "Kornelia", lName: "Słaba", age: 32, email: "k.sl@wp.pl", isFavorite: false),
+        Frend(id: 1, fName: "Wiktoria", lName: "Wiśnia", age: 29, email: "wwis@wp.pl", isFavorite: true),
+        Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: false),
+        Frend(id: 1, fName: "Olga", lName: "Manka", age: 29, email: "omans@wp.pl", isFavorite: true),
+        Frend(id: 2, fName: "Malwina", lName: "Kola", age: 36, email: "malk@wp.pl", isFavorite: false)
     ]
 }

@@ -39,6 +39,6 @@ struct FrendDetailView: View {
 
 struct FrendDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrendDetailView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl"))
+        FrendDetailView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: true))
     }
 }
