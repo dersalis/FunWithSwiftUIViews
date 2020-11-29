@@ -39,7 +39,7 @@ struct FrendRowView_Previews: PreviewProvider {
             FrendRowView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: true))
             FrendRowView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: false))
         }
-        .previewLayout(.fixed(width: 300, height: 100))
+        .previewLayout(.sizeThatFits)
         
     }
 }

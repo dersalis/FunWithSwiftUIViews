@@ -37,14 +37,14 @@ struct FrendDetailView: View {
                                 .foregroundColor(.yellow)
                         } else {
                             Image(systemName: "star")
-                                .foregroundColor(Color.gray.opacity(0.25))
+                                .foregroundColor(Color.secondary.opacity(0.25))
                         }
                     })
                 }
                 Divider()
                 Text(self.frend.email)
                     .font(.caption)
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(.secondary)
                 Spacer()
             }
             .padding()
@@ -56,6 +56,7 @@ struct FrendDetailView: View {
 struct FrendDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FrendDetailView(frend: Frend(id: 2, fName: "Monika", lName: "Osa", age: 36, email: "monsa@wp.pl", isFavorite: true))
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12 mini"))
             .environmentObject(FrendsStorage())
     }
 }
