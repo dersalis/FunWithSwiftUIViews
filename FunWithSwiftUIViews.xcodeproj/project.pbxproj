@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA25BD7B2573EBDA00B42EEC /* TabBarCustomOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25BD7A2573EBDA00B42EEC /* TabBarCustomOneView.swift */; };
+		DA25BD81257D723A00B42EEC /* TabBarCustomTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25BD80257D723A00B42EEC /* TabBarCustomTwo.swift */; };
 		DA5A513F25684D790097AF1C /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A513E25684D790097AF1C /* NavigationListView.swift */; };
 		DA5A514425684E250097AF1C /* Frend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A514325684E250097AF1C /* Frend.swift */; };
 		DA5A5151256857E70097AF1C /* FrendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A5150256857E70097AF1C /* FrendDetailView.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		DA25BD7A2573EBDA00B42EEC /* TabBarCustomOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustomOneView.swift; sourceTree = "<group>"; };
+		DA25BD80257D723A00B42EEC /* TabBarCustomTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustomTwo.swift; sourceTree = "<group>"; };
 		DA5A513E25684D790097AF1C /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
 		DA5A514325684E250097AF1C /* Frend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frend.swift; sourceTree = "<group>"; };
 		DA5A5150256857E70097AF1C /* FrendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendDetailView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,23 @@
 			path = TabBarCustomOne;
 			sourceTree = "<group>";
 		};
+		DA25BD7F257D720F00B42EEC /* TabBarCustomTwo */ = {
+			isa = PBXGroup;
+			children = (
+				DA25BD80257D723A00B42EEC /* TabBarCustomTwo.swift */,
+			);
+			path = TabBarCustomTwo;
+			sourceTree = "<group>";
+		};
+		DA25BD87257D98CD00B42EEC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DA25BD792573EBA700B42EEC /* TabBarCustomOne */,
+				DA25BD7F257D720F00B42EEC /* TabBarCustomTwo */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 		DA5A513D25684D380097AF1C /* NavigationList */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +163,7 @@
 		DA853FBD2564038600599DF5 /* FunWithSwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
-				DA25BD792573EBA700B42EEC /* TabBarCustomOne */,
+				DA25BD87257D98CD00B42EEC /* TabBar */,
 				DA5A513D25684D380097AF1C /* NavigationList */,
 				DA8540202565845500599DF5 /* DashboardOne */,
 				DA85400D2564602100599DF5 /* ButtonCustom */,
@@ -363,6 +382,7 @@
 				DA85401C25646D5700599DF5 /* ButtonStyleView.swift in Sources */,
 				DA853FEE256406D800599DF5 /* CircleTimeGraphView.swift in Sources */,
 				DA853FF425640A0900599DF5 /* HorizontalScrollView.swift in Sources */,
+				DA25BD81257D723A00B42EEC /* TabBarCustomTwo.swift in Sources */,
 				DA5A514425684E250097AF1C /* Frend.swift in Sources */,
 				DA5A513F25684D790097AF1C /* NavigationListView.swift in Sources */,
 				DA853FF925640CD900599DF5 /* CircleAvatarView.swift in Sources */,
